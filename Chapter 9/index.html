@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9 Web Form</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Information</legend>
+            <label>UserName</label><br>
+            <input type="text" name="username" maxlength="15" value="Ossama"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" ><br>
+            <label>URL</label><br>
+            <input type="url" name="url" ><br>
+            <label>Search</label><br>
+            <input type="search" name="search" ><br>
+            <label>Password</label><br>
+            <input type="password" name="pasword" maxlength="15"><br>
+            <label>Massege</label><br>
+            <textarea name="Massege" cols="16" rows="6">Write your Massege</textarea>
+            <br>
+            <ol>
+                <li><input type="radio" name="age" value="under18">Under 18</li>
+                <li><input type="radio" name="age" value="18-24" checked>18-24</li>
+                <li><input type="radio" name="age" value="25-35" >25-35</li>
+                <li><input type="radio" name="age" value="35-45" >35-45</li>
+                <li><input type="radio" name="age" value="+45" >+45</li>
+            </ol>
+            <ol>
+                <li><input type="checkbox" name="car1" value="BMW" checked>BMW</li>
+                <li><input type="checkbox" name="car2" value="Oudi">Oudi</li>
+                <li><input type="checkbox" name="car3" value="BYD">BYD</li>
+            </ol>
+            <select name="number" size="9" multiple>
+                <optgroup label="Car">
+                    <option>Car</option>
+                    <option>Track</option>
+                    <option>Animal</option>
+                    <option>Human</option>
+                </optgroup>
+                <optgroup label="Numbrs">
+                    <option>one</option>
+                    <option>two</option>
+                    <option value="3">three</option>
+                    <option>four</option>
+                    <option>five</option>
+                </optgroup>
+            </select><br>
+            <input type="file" name="file" size="20"><br>
+            <input type="hidden" name="site" value="www.example.com">
+
+            <label>Data</label><br>
+            <input type="date"><br>
+            <label>Time</label><br>
+            <input type="time"><br>
+            <label>DataTime</label><br>
+            <input type="datetime"><br>
+            <label>DataTime-local</label><br>
+            <input type="datetime-local"><br>
+            <label>Week</label><br>
+            <input type="week"><br>
+            <label>Month</label><br>
+            <input type="month"><br>
+
+            
+            <label>Number</label><br>
+            <input type="number"><br>
+            <label>Range</label><br>
+            <input type="range" min="20" max="120" step="5"><br>
+
+            
+            <label>Color</label><br>
+            <input type="color"><br>
+
+            <input type="submit">
+            <button type="reset">Rest</button>
+        </fieldset>
+    </form>
+</body>
+</html>
