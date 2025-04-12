@@ -1,0 +1,23 @@
+#c1 {
+    float: left;        /*← يروح على الشمال*/
+    width: 59%;
+    padding: 1px;
+    height: 300px;
+  }
+
+  #c2 {
+    float: left;     /*  ← يروح على اليمين*/
+    width: 39%;
+    padding: 1px;
+    height: 300px;
+  }
+
+
+#w{
+    background-image: url(3000px.jpg);
+    background-repeat: repeat-y;
+    background-position: 67.5%;
+}
+#f1{
+    clear: both;
+}
